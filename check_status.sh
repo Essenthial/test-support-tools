@@ -2,6 +2,7 @@
 
 SERVICE_NAME="nginx"
 
+echo "Check time: $(date)"
 echo "Checking service: $SERVICE_NAME"
 systemctl status "$SERVICE_NAME" --no-pager
 
